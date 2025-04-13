@@ -11,6 +11,13 @@ import com.vaadin.flow.router.Route;
 @Menu(order = 1, icon = "vaadin:briefcase", title = "Projects")
 public class ProjectsView extends Main {
     public ProjectsView () {
-        setText("Projects View");
+        Grid<Person> grid = new Grid<>(Person.class, false);
+        grid.addColumn(createAvatarRenderer()).setHeader("Image")
+                .setAutoWidth(true).setFlexGrow(0);
+        grid.addColumn(Person::getFirstName).setHeader("First name");
+        grid.addColumn(Person::getLastName).setHeader("Last name");
+        grid.addColumn(Person::getEmail).setHeader("Email");
+
+        grid.addThemeVariants(GridVariant.LUMO_ROW_STRIPES);
     }
 }

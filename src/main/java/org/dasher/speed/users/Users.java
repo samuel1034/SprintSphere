@@ -1,4 +1,4 @@
-package org.dasher.speed.users.ui.view;
+package org.dasher.speed.users;
 
 import com.vaadin.flow.component.html.Main;
 import com.vaadin.flow.router.Menu;
