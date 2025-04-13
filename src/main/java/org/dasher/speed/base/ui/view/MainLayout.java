@@ -32,7 +32,7 @@ public final class MainLayout extends AppLayout {
         var appLogo = VaadinIcon.CUBES.create();
         appLogo.addClassNames(TextColor.PRIMARY, IconSize.LARGE);
 
-        var appName = new Span("Antlers Renderer");
+        var appName = new Span("Project Management Dashboard");
         appName.addClassNames(FontWeight.SEMIBOLD, FontSize.LARGE);
 
         var header = new Div(appLogo, appName);
