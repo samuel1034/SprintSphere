@@ -2,6 +2,7 @@ package org.dasher.speed.project.model;
 
 
 import jakarta.persistence.*;
+import org.dasher.speed.project.model.enums.ProjectPhase;
 
 
 import java.time.LocalDate;

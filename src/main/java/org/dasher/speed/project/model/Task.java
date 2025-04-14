@@ -1,6 +1,8 @@
 package org.dasher.speed.project.model;
 
 import jakarta.persistence.*;
+import org.dasher.speed.project.model.enums.Priority;
+import org.dasher.speed.project.model.enums.TaskStatus;
 
 import java.time.LocalDate;
 
@@ -15,7 +17,7 @@ public class Task {
     private String description;
 
     @Enumerated(EnumType.STRING)
-    private Priotity priotity;
+    private Priority priority;
 
     @Enumerated(EnumType.STRING)
     private TaskStatus status;
