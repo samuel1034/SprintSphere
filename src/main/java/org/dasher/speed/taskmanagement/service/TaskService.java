@@ -40,4 +40,6 @@ public class TaskService {
         return taskRepository.findAllBy(pageable).toList();
     }
 
+    public Iterable<Object> countTasksByStatus() {
+    }
 }

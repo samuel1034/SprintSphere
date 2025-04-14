@@ -16,8 +16,8 @@ public class Team {
     @ManyToMany
     @JoinTable(
             name = "team_members",
-            JoinColumns = @JoinColumn('team_id'),
-            inverseJoinColumns = @JoinColumn('user_id')
+            joinColumns = @JoinColumn(name = "team_id"),
+            inverseJoinColumns = @JoinColumn(name = "user_id")
     )
     private Set<User> members;
 

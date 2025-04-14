@@ -35,7 +35,7 @@ public class DashboardView extends VerticalLayout {
         conf.setTitle("Projects by Phase");
 
         DataSeries series = new DataSeries();
-        projectService.countProjectsByPhase().forEach (() ->
+        projectService.countProjectsByPhase().forEach((phase,count) ->
                 series.add(new DataSeriesItem(phase.name(),count)));
 
             conf.addSeries(series);
