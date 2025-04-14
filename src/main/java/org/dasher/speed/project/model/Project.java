@@ -2,9 +2,10 @@ package org.dasher.speed.project.model;
 
 
 import jakarta.persistence.*;
-import org.hibernate.mapping.Set;
+
 
 import java.time.LocalDate;
+import java.util.Set;
 
 @Entity
 public class Project {
