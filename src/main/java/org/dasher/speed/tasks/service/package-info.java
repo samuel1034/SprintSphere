@@ -6,6 +6,6 @@
  * </p>
  */
 @NullMarked
-package org.dasher.speed.taskmanagement.service;
+package org.dasher.speed.tasks.service;
 
 import org.jspecify.annotations.NullMarked;

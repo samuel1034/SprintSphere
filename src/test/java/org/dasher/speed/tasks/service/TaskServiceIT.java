@@ -1,7 +1,7 @@
-package org.dasher.speed.taskmanagement.service;
+package org.dasher.speed.tasks.service;
 
-import org.dasher.speed.taskmanagement.domain.Task;
-import org.dasher.speed.taskmanagement.domain.TaskRepository;
+import org.dasher.speed.tasks.domain.Task;
+import org.dasher.speed.tasks.domain.TaskRepository;
 import jakarta.validation.ValidationException;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;

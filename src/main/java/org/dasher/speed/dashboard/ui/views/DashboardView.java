@@ -8,7 +8,7 @@ import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.router.Route;
 import org.dasher.speed.base.ui.view.MainLayout;
 import org.dasher.speed.project.service.ProjectService;
-import org.dasher.speed.taskmanagement.service.TaskService;
+import org.dasher.speed.tasks.service.TaskService;
 
 @PageTitle("Dashboard | PM Dashboard")
 @Route (value = "dashboard", layout = MainLayout.class)

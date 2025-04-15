@@ -11,5 +11,5 @@
  * directly to the application package.
  * </p>
  */
-package org.dasher.speed.taskmanagement;
+package org.dasher.speed.tasks;
 // TODO Remove this package once you have added real features

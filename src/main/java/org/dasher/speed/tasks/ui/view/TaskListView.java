@@ -1,8 +1,8 @@
-package org.dasher.speed.taskmanagement.ui.view;
+package org.dasher.speed.tasks.ui.view;
 
 import org.dasher.speed.base.ui.component.ViewToolbar;
-import org.dasher.speed.taskmanagement.domain.Task;
-import org.dasher.speed.taskmanagement.service.TaskService;
+import org.dasher.speed.tasks.domain.Task;
+import org.dasher.speed.tasks.service.TaskService;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.button.ButtonVariant;
 import com.vaadin.flow.component.datepicker.DatePicker;

@@ -1,4 +1,4 @@
-package org.dasher.speed.taskmanagement.domain;
+package org.dasher.speed.tasks.domain;
 
 import org.dasher.speed.base.domain.AbstractEntity;
 import jakarta.persistence.*;

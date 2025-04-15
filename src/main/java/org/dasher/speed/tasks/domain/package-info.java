@@ -9,6 +9,6 @@
  * </p>
  */
 @NullMarked
-package org.dasher.speed.taskmanagement.domain;
+package org.dasher.speed.tasks.domain;
 
 import org.jspecify.annotations.NullMarked;

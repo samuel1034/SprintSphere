@@ -1,4 +1,4 @@
-package org.dasher.speed.taskmanagement.domain;
+package org.dasher.speed.tasks.domain;
 
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Slice;
